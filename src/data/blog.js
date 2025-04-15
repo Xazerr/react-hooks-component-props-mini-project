@@ -1,8 +1,9 @@
-import logo from "../assets/logo";
+// src/data/blog.js
+import logo from "../assets/logo";  // Make sure this path is correct
 
 const blogData = {
   name: "Underreacted",
-  image: logo,
+  image: logo,  
   about: "A blog about learning React",
   posts: [
     {
@@ -29,3 +30,4 @@ const blogData = {
 };
 
 export default blogData;
+
